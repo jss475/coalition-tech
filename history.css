@@ -113,13 +113,20 @@
     padding-right: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
     background-color: rgba(60, 82, 145,0.9);
 }
-
-
 
 .img-carousel {
     height: 120px;
     min-width: 95%;
     max-width: 95%
+}
+
+.carousel-control-prev{
+    transform: translateX(-65%)
+}
+
+.carousel-control-next{
+    transform: translateX(55%)
 }
